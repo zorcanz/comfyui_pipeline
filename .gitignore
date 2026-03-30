@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ComfyUI outputs and temp files
+ComfyUI/output/*
+ComfyUI/temp/*
+!ComfyUI/output/.keep
+!ComfyUI/temp/.keep
+
+# ComfyUI Models (already cleaned, but just in case)
+ComfyUI/models/checkpoints/*
+!ComfyUI/models/checkpoints/put_checkpoints_here
+ComfyUI/models/clip/*
+ComfyUI/models/clip_vision/*
+!ComfyUI/models/clip_vision/put_clip_vision_models_here
+ComfyUI/models/controlnet/*
+!ComfyUI/models/controlnet/put_controlnets_and_t2i_models_here
+ComfyUI/models/diffusion_models/*
+!ComfyUI/models/diffusion_models/put_diffusion_models_here
+ComfyUI/models/loras/*
+!ComfyUI/models/loras/put_loras_here
+ComfyUI/models/text_encoders/*
+!ComfyUI/models/text_encoders/put_text_encoders_here
+ComfyUI/models/unet/*
+!ComfyUI/models/unet/put_unet_files_here
+ComfyUI/models/vae/*
+!ComfyUI/models/vae/put_vae_here
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
