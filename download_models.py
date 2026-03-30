@@ -32,17 +32,17 @@ MODELS_TO_DOWNLOAD = [
     {
         "filename": "my_first_flux_lora_v1_000004.safetensors",
         "path": "models/loras",
-        "url": "" # 注意：需要用户提供真实链接
+        "url": "https://huggingface.co/aifeifei798/flux-lora-uncensored/resolve/main/flux-lora-uncensored-000004.safetensors"
     },
     {
         "filename": "nsfw_flux_lora_v1.safetensors",
         "path": "models/loras",
-        "url": "" # 注意：需要用户提供真实链接
+        "url": "https://huggingface.co/aifeifei798/flux-lora-uncensored/resolve/main/flux-lora-uncensored.safetensors"
     },
     {
         "filename": "NSFW_master.safetensors",
         "path": "models/loras",
-        "url": "" # 注意：需要用户提供真实链接
+        "url": "https://huggingface.co/voxvici/flux-lora-nsfw/resolve/main/NSFW_master.safetensors"
     },
     {
         "filename": "qwen_2.5_vl_7b_fp8_e4m3fn.safetensors",
